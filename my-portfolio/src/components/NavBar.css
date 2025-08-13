@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1rem;
+}
+.nav-icon {
+    color: #fff;
+}
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    opacity: 0.97;
+}
+.nav-links a:hover{
+    opacity: 1;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
