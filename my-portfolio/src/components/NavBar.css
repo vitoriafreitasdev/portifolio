@@ -1,12 +1,13 @@
+
 nav{
+    width: 100%;
+    box-sizing: border-box; 
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: #020122;
     padding: 1rem;
 }
-.nav-icon {
-    color: #fff;
-}
+
 .nav-links {
     display: flex;
     gap: 1rem;
@@ -22,4 +23,32 @@ nav{
 .icon{
     width: 30px;
     height: 30px;
+}
+.menu{
+    display: none;
+    color: #FFF;
+}
+.nav-links.show{
+    display: flex;
+}
+.menuImg{
+    width: 25px;
+    height: 25px;
+}
+@media (max-width: 400px){
+    .icon{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+    .nav-links{
+        flex-direction: column;
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
 }

@@ -1,0 +1,195 @@
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: linear-gradient(to right, #e09f3e, rgb(10, 10, 10) );
+    color: #ECF8F8;
+}
+.main-container h1, h2, h3{
+    color: #881600;
+
+}
+.introduction-div{
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.introduction-div h1 {
+    margin: 2rem;
+}
+.introduction-div h2 {
+    margin: 1rem;
+}
+.skills-div{
+    margin: 0;
+    width: 50vw;
+}
+
+.line {
+    border-right: 1px solid #fff;
+    margin: 1rem;
+}
+.skills-div div {
+    display: flex;
+}
+
+.skills-h3 {
+    gap: 6.5rem;
+}
+
+.aboutme-p {
+    max-width: 500px;
+    text-indent: 20px;
+    margin: 1rem;
+}
+.foto-div{
+    width: 10%;
+    margin: 6rem;
+    padding: 0;
+    
+}
+.foto-div img{
+    border-radius: 10px;
+    
+}
+
+@media (max-width: 1024px) {
+    .foto-div {
+        margin: 2rem; 
+    }
+    .main-container h1{
+        font-size: 30px;
+    }
+    .foto-div img{
+        width: 250px;
+        height: 250px;
+        object-fit: contain;
+    }
+    .skills-div {
+        width: 50vw;
+        max-width: 100%; 
+    }
+}
+@media (max-width: 900px){
+    .foto-div img{
+        width: 150px;
+        height: 250px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 1rem;
+        height: auto;
+        text-align: center;
+    }
+
+    .main-container h1 {
+        font-size: 24px;
+        margin: 1rem 0;
+    }
+
+    .main-container p {
+        font-size: 14px;
+    }
+
+    .introduction-div {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    .aboutme-p {
+        max-width: 100%;
+        text-indent: 0;
+        margin: 0.5rem 0;
+    }
+
+    .skills-div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .skills-div div {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skills-h3 {
+        gap: 0;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .foto-div {
+        width: auto;
+        margin: 1rem 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .foto-div img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 400px){
+     .main-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0.5rem;
+        height: auto;
+        text-align: center;
+    }
+
+    .main-container h1 {
+        font-size: 20px;
+        margin: 1rem 0;
+    }
+
+    .main-container p {
+        font-size: 12px;
+    }
+
+    .introduction-div {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    .aboutme-p {
+        max-width: 200px;
+        text-indent: 0;
+        margin: 0.5rem 0;
+    }
+
+    .skills-div {
+        width: 200px;
+        margin: 0;
+    }
+
+     
+}

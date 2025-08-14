@@ -1,8 +1,44 @@
-import React from 'react'
+
+import foto from "../../images/foto-perfil-edit.png"
+// import certificadoAlgoritmos from "../../images/certificado1.png"
+// import certificadoFrontEnd from "../../images/certificado2.png"
+
+import "./Home.css"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='main-container'>
+      <div className='introduction-div'>
+        <h1>Futura desenvolvedora</h1> 
+        <p className="aboutme-p">
+          Me chamo Vitória Freitas, 21 anos. Iniciei os estudos em 2024, comecei por apenas curiosidade, agora quero que seja minha profissão, por tanto estou a procura de um estágio
+        </p>    
+        <h2>Um pouco sobre mim</h2>
+        <div className="skills-div">
+          <div className="skills-h3">
+            <h3>Habilidades: </h3>
+            <h3>Faculdade/Cursos:</h3>
+          </div>
+          <div className="skills-p">
+            <p>
+              Html, Css, JavaScript, ReactJS. Básico: TypeScript
+            </p>
+            <p className="line"></p>
+            <p >
+              Faço faculdade de Análise e Desenvolvimento de Sistemas na UNIP, estou no segundo semestre. 
+              E tenho dois cursos completos da Udemy. Nomes: Algoritmos e Lógica de Programação - O Curso COMPLETO, Instrutores Nelio Alves, Formação Front-end - HTML, CSS, JavaScript, React e +, Instrutores Matheus Battisti, Hora de Codar. Você pode verificar os certificados clicando em "+Sobre mim"
+            </p>
+          </div>
+          {/* <div className="images-div">
+            <img src={certificadoAlgoritmos} alt="Certificado do curso Algoritmos e Lógica de Programação - O Curso COMPLETO, Instrutores Nelio Alves." />
+            <img src={certificadoFrontEnd} alt="Certificado do curso Formação Front-end - HTML, CSS, JavaScript, React e +, Instrutores Matheus Battisti, Hora de Codar." />
+          </div> */}
+      </div>  
+      </div>
+      <div className='foto-div'>
+          <img src={foto} alt="Foto de perfil" />
+      </div>
+    </div>
   )
 }
 
