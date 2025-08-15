@@ -1,6 +1,7 @@
 import "./Contacts.css"
 
 const Contacts = () => {
+   // depois de fazer o linkedIn colocar ai embaixo o link 
   return (
     <div className='contacts-main-div'>
         <h1>Contatos</h1>

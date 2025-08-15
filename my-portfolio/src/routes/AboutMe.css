@@ -52,3 +52,20 @@
     margin: 0.5rem;
     text-indent: 10px;
 }
+@media (max-width: 500px){
+    .aboutme-main-div{
+        height: 100%;
+    }
+    .aboutme-main-div h1{
+        font-size: 28px;
+    }
+    .introduction-p{
+        width: 250px;
+        margin-left: 5rem;
+    }
+    .certificates-div img{
+        width: 200px;
+        height: 200px;
+    }
+    
+}

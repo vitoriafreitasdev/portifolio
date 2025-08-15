@@ -12,7 +12,7 @@ const AboutMe = () => {
             <h1>Mais sobre mim</h1>
             <div className="div-projects">
                     <h2>Projetos pessoais.</h2>
-                    <p>
+                    <p className="introduction-p">
                         Desde que iniciei os estudos fiz alguns projetos pessoais para treinar as tecnologias que estava estudando, abaixo estão elas:
                     </p>
                     <ul className="ul-projects">
