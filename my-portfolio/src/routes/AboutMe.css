@@ -1,0 +1,54 @@
+
+
+.aboutme-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: linear-gradient(to right, #e09f3e, rgb(10, 10, 10) ); 
+    color: #ECF8F8;
+    height: 100%;
+}
+.aboutme-main-div h1{
+    text-align: center;
+    margin:1rem;
+}
+.aboutme-main-div h2{
+    margin:1rem;
+}
+.aboutme-main-div h1, h2{
+    color: #ECF8F8;
+
+}
+
+.div-projects{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.div-projects ul {
+    margin: 2rem;
+}
+
+.div-projects li {
+    margin: 0.5rem;
+    padding: 0.2rem;
+    font-size: larger;
+    font-weight: bolder;
+}
+.certificates-div h2 {
+    margin-left: 7rem;
+}
+.certificates-div img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    margin-left: 3rem;
+}
+.certificates-div span{
+    margin: 1rem;
+}
+.ul-projects p{
+    margin: 0.5rem;
+    text-indent: 10px;
+}

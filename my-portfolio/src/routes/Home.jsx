@@ -1,7 +1,6 @@
-
+import {Link} from "react-router-dom"
 import foto from "../../images/foto-perfil-edit.png"
-// import certificadoAlgoritmos from "../../images/certificado1.png"
-// import certificadoFrontEnd from "../../images/certificado2.png"
+
 
 import "./Home.css"
 
@@ -21,18 +20,15 @@ const Home = () => {
           </div>
           <div className="skills-p">
             <p>
-              Html, Css, JavaScript, ReactJS. Básico: TypeScript
+              Html, Css, JavaScript, ReactJS, Axios. Básico: TypeScript e NodeJS com express
             </p>
             <p className="line"></p>
             <p >
               Faço faculdade de Análise e Desenvolvimento de Sistemas na UNIP, estou no segundo semestre. 
-              E tenho dois cursos completos da Udemy. Nomes: Algoritmos e Lógica de Programação - O Curso COMPLETO, Instrutores Nelio Alves, Formação Front-end - HTML, CSS, JavaScript, React e +, Instrutores Matheus Battisti, Hora de Codar. Você pode verificar os certificados clicando em "+Sobre mim"
+              E tenho dois cursos completos da Udemy. Nomes: Algoritmos e Lógica de Programação - O Curso COMPLETO, Instrutores Nelio Alves, Formação Front-end - HTML, CSS, JavaScript, React e +, Instrutores Matheus Battisti, Hora de Codar. Você pode verificar os certificados clicando <Link className="link" to="/sobremim">Aqui</Link>
             </p>
           </div>
-          {/* <div className="images-div">
-            <img src={certificadoAlgoritmos} alt="Certificado do curso Algoritmos e Lógica de Programação - O Curso COMPLETO, Instrutores Nelio Alves." />
-            <img src={certificadoFrontEnd} alt="Certificado do curso Formação Front-end - HTML, CSS, JavaScript, React e +, Instrutores Matheus Battisti, Hora de Codar." />
-          </div> */}
+          <button className="projects-btn"><Link className="btn" to="/sobremim">Projetos Pessoais</Link></button>
       </div>  
       </div>
       <div className='foto-div'>

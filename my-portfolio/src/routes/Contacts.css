@@ -1,0 +1,24 @@
+.contacts-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e09f3e; 
+    
+}
+
+.contacts-main-div h1 {
+    margin: 1rem;
+    color: black;
+}
+.contacts-main-div span{
+    margin: 0.5rem;
+    color: black;
+}
+.contact{
+    color: #fff;
+}
+.contacts-main-div div{
+    margin: 0.5rem;
+}
