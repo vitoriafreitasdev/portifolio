@@ -46,7 +46,7 @@ const AboutMe = () => {
 
                         <li>APIRESTful com nodeJS.</li>
                         <p>Uma api feita com nodejs para um CRUD simples, utiliza nodeJS com Express e mongoose para fazer as interações com o banco MongoDB Atlas.</p>
-                        <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/API-RESTful-NodeJS" target="_blank"></a></p>
+                        <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/API-RESTful-NodeJS" target="_blank">Aqui</a></p>
                     </ul>
             </div>
 
