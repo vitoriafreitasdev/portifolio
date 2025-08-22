@@ -42,9 +42,11 @@ const AboutMe = () => {
 
                         <li>Formulário multistep com React e TypeScript</li>
                         <p>Um formulário para avaliações dos usuários.</p>
-                        <p>Repoitório <a className="link" href="https://github.com/vitoriafreitasdev/FormularioMultistepReactTS" target="_blank">Aqui</a></p>
+                        <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/FormularioMultistepReactTS" target="_blank">Aqui</a></p>
 
-
+                        <li>APIRESTful com nodeJS.</li>
+                        <p>Uma api feita com nodejs para um CRUD simples, utiliza nodeJS com Express e mongoose para fazer as interações com o banco MongoDB Atlas.</p>
+                        <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/API-RESTful-NodeJS" target="_blank"></a></p>
                     </ul>
             </div>
 

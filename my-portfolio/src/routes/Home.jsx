@@ -20,7 +20,7 @@ const Home = () => {
           </div>
           <div className="skills-p">
             <p>
-              Html, Css, JavaScript, ReactJS, Axios. Básico: TypeScript e NodeJS com express
+              Html, Css, JavaScript, ReactJS, Axios. Básico: TypeScript e NodeJS com Express
             </p>
             <p className="line"></p>
             <p >
