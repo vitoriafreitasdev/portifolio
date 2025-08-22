@@ -13,11 +13,11 @@ const AboutMe = () => {
             <div className="div-projects">
                     <h2>Projetos pessoais.</h2>
                     <p className="introduction-p">
-                        Desde que iniciei os estudos fiz alguns projetos pessoais para treinar as tecnologias que estava estudando, abaixo estão elas:
+                        Desde que iniciei os estudos fiz alguns projetos pessoais com o conhecimento que tinha na época que fiz ele, abaixo estão elas:
                     </p>
                     <ul className="ul-projects">
                         <li>Reac Services</li>
-                        <p>Um CRUD para fazer solicitação de serviços para veículo, você cadastra seus dados e de acordo com seu orçamento pode solicitar serviços para o seu veículo, possui um painel administrativo, caso seja a conta do administrador conectado. Utiliza react router dom, axios react tostify, no backend NodeJs, mongoose, express, bcrypt, jsonwebtoken e mongoDB Atlas.</p>
+                        <p>Um CRUD para fazer solicitação de serviços para veículo, você cadastra seus dados e de acordo com seu orçamento pode solicitar serviços para o seu veículo, possui um painel administrativo, apenas o usuário administrador tem acesso. Utiliza react router dom, axios react tostify, no backend NodeJs, mongoose, express, bcrypt, jsonwebtoken e mongoDB Atlas.</p>
                         <p>Repoitório <a className="link" href="https://github.com/vitoriafreitasdev/ReactServices" target="_blank">Aqui</a></p>
 
                         <li>React Recipes </li>
