@@ -5,11 +5,11 @@
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-image: linear-gradient(to right, #e09f3e, rgb(10, 10, 10) ); 
+    background-image: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40), rgb(60, 60, 60) ); 
     color: #ECF8F8;
 }
 .main-container h1, h2, h3{
-    color: #881600;
+    color: #e42600;
 
 }
 .introduction-div{
@@ -58,7 +58,7 @@
 }
 .link {
     text-decoration: none;
-    color: #881600;
+    color: #e42600;
     font-weight: bold;
 }
 .projects-btn{
@@ -67,16 +67,16 @@
     height: 50px;
     border-radius: 20px;
     border: none;
-    background-color: #881600;
+    background-color: #e42600;
     cursor: pointer;
+    color: #ddd;
 }
 .projects-btn:hover{
-    background: #6e1300;
+    background: #c72100;
     
 }
 .btn{
     text-decoration: none;
-    color: #ddd;
 }
 @media (max-width: 1024px) {
     .foto-div {

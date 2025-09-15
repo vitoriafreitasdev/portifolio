@@ -5,8 +5,9 @@
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-image: linear-gradient(to right, #e09f3e, rgb(10, 10, 10) ); 
-    color: #ECF8F8;
+    background-color: rgb(10, 10, 10);
+    background-image: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40), rgb(60, 60, 60) ); 
+    color: #ffffff;
     height: 100%;
 }
 .aboutme-main-div h1{
@@ -17,13 +18,14 @@
     margin:1rem;
 }
 .aboutme-main-div h1, h2{
-    color: #ECF8F8;
+    color: #ffffff;
 
 }
 
 .div-projects{
     margin: 1rem;
     padding: 0.5rem;
+    width: 70%;
 }
 
 .div-projects ul {

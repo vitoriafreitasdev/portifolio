@@ -28,7 +28,7 @@ const Home = () => {
               E tenho dois cursos completos da Udemy. Nomes: Algoritmos e Lógica de Programação - O Curso COMPLETO, Instrutores Nelio Alves, Formação Front-end - HTML, CSS, JavaScript, React e +, Instrutores Matheus Battisti, Hora de Codar. Você pode verificar os certificados clicando <Link className="link" to="/sobremim">Aqui</Link>
             </p>
           </div>
-          <button className="projects-btn"><Link className="btn" to="/sobremim">Projetos Pessoais</Link></button>
+          <Link className="btn" to="/sobremim"><button className="projects-btn">Projetos Pessoais</button></Link>
       </div>  
       </div>
       <div className='foto-div'>
