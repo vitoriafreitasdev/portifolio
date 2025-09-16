@@ -3,22 +3,31 @@ nav{
     width: 100%;
     box-sizing: border-box; 
     display: flex;
-    background-color: #BA1200;
+    background-image: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40), rgb(60, 60, 60) );  
     justify-content: space-between;  
     padding: 1rem;
+}
+.linkh2{
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 0.7rem;
+    border-radius: 3.5px;
+    cursor: pointer;
 }
 
 .nav-links {
     display: flex;
     gap: 1rem;
+    
 }
 
 .nav-links a {
     color: #fff;
-    opacity: 0.97;
+    padding: 0.7rem;
+    
 }
-.nav-links a:hover{
-    opacity: 1;
+.linkh2:hover{
+    background-color: #2978A0;
+    
 }
 .icon{
     width: 30px;

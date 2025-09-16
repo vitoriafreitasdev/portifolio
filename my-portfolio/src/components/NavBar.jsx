@@ -19,10 +19,10 @@ const NavBar = () => {
           </Link>
         </div>
         <div className={`nav-links ${open ? "show" : ""}`}>
-          <h2><a href="https://github.com/vitoriafreitasdev" target="_blank">GitHub</a></h2>
-          <h2><a href="#" target="_blank">LinkedIn</a></h2>
-          <h2><Link to="/sobremim">+Sobre Mim</Link></h2>
-          <h2><Link to="/contatos">Contatos</Link></h2>
+          <h2 className="linkh2"><a href="https://github.com/vitoriafreitasdev" target="_blank">GitHub</a></h2>
+          <h2 className="linkh2"><a href="#" target="_blank">LinkedIn</a></h2>
+          <h2 className="linkh2"><Link to="/sobremim">+Sobre Mim</Link></h2>
+          <h2 className="linkh2"><Link to="/contatos">Contatos</Link></h2>
         </div>
         <div className="div-menu">
           <h2 className="menu" onClick={handleMenu}>

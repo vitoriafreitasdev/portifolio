@@ -4,17 +4,18 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-color: #e09f3e; 
-    
+    background-image: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40), rgb(60, 60, 60) );  
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .contacts-main-div h1 {
     margin: 1rem;
-    color: black;
+    color: white;
 }
 .contacts-main-div span{
     margin: 0.5rem;
-    color: black;
+    color: white;
 }
 .contact{
     color: #fff;

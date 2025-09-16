@@ -5,13 +5,15 @@
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-image: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40), rgb(60, 60, 60) ); 
+    background-image: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40), rgb(60, 60, 60) );  
     color: #ECF8F8;
 }
-.main-container h1, h2, h3{
-    color: #e42600;
+.main-container h1, h3{
+    color: #2978A0; 
+
 
 }
+
 .introduction-div{
     margin: 1rem;
     padding: 1rem;
@@ -58,7 +60,7 @@
 }
 .link {
     text-decoration: none;
-    color: #e42600;
+    color: #2978A0; 
     font-weight: bold;
 }
 .projects-btn{
@@ -67,12 +69,13 @@
     height: 50px;
     border-radius: 20px;
     border: none;
-    background-color: #e42600;
+    background-color: #2978A0; 
     cursor: pointer;
     color: #ddd;
+    font-weight: bolder;
 }
 .projects-btn:hover{
-    background: #c72100;
+    background: #24698b;
     
 }
 .btn{
