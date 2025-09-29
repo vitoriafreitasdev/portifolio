@@ -6,16 +6,16 @@ const Contacts = () => {
     <div className='contacts-main-div'>
         <h1>Contatos</h1>
         <div>
-          <span>Email: vitoriafreitas110903@gmail.com</span>
+          Email:<span> vitoriafreitas110903@gmail.com</span>
         </div>
         <div>
-          <span>Número: 55 11 91345-5557</span>
+        Número:<span> 55 11 91345-5557</span>
         </div>
         <div>
-          <span>GitHub: vitoriafreitasdev</span>
+          GitHub:<span> <a target="_blank" href="https://github.com/vitoriafreitasdev" className="link_contacts">vitoriafreitasdev</a></span>
         </div>
         <div>
-          <span>LinkedIn: Vitória Freitas</span>
+          LinkedIn:<span> <a target="_blank" href="https://www.linkedin.com/in/vit%C3%B3ria-freitas-b4076a387/" className="link_contacts">Vitória Freitas</a></span>
         </div>
     </div>
   )

@@ -7,6 +7,7 @@
     background-image: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40), rgb(60, 60, 60) );  
     font-weight: bolder;
     font-size: larger;
+    color: #fff;
 }
 
 .contacts-main-div h1 {
@@ -17,9 +18,13 @@
     margin: 0.5rem;
     color: white;
 }
-.contact{
-    color: #fff;
-}
 .contacts-main-div div{
     margin: 0.5rem;
+}
+.contacts-main-div span{
+    text-decoration: underline;
+}
+.link_contacts{
+    
+    color: #fff;
 }
