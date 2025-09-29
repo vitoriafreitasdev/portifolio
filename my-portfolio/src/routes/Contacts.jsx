@@ -15,7 +15,7 @@ const Contacts = () => {
           <span>GitHub: vitoriafreitasdev</span>
         </div>
         <div>
-          <span>LinkedIn: Vitoria Freitas</span>
+          <span>LinkedIn: Vitória Freitas</span>
         </div>
     </div>
   )

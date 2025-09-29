@@ -15,6 +15,7 @@ const AboutMe = () => {
                     <p className="introduction-p">
                         Desde que iniciei os estudos fiz alguns projetos pessoais com o conhecimento que tinha na época que fiz ele, abaixo estão elas:
                     </p>
+
                     <ul className="ul-projects">
                         <li>React platarforma de gestão de estoque</li>
                         <p>Uma simples platarforma de gestão de estoque feita com React JS, NodeJs. Nessa platarforma usuários podem se cadastrar para pedir produtos, se disponível. Administradores podem se cadastrar se possuírem a chave de acesso para administradores, eles podem editar, postar e excluir produtos. Utiliza react router dom, axios, no backend NodeJs, mongoose, express, bcrypt, jsonwebtoken, multer e mongoDB Atlas.</p>
@@ -51,6 +52,7 @@ const AboutMe = () => {
                         <p>Uma api feita com nodejs para um CRUD simples, utiliza nodeJS com Express e mongoose para fazer as interações com o banco MongoDB Atlas.</p>
                         <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/API-RESTful-NodeJS" target="_blank">Aqui</a></p>
                     </ul>
+                    
             </div>
 
             <div className="certificates-div">
