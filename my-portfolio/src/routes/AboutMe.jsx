@@ -28,6 +28,10 @@ const AboutMe = () => {
                         <p>Um CRUD para fazer postagem de receitas, você cadastra seus dados e pode postar, editar e excluir suas receitas e ver as receitas postadas por outras pessoas, tem upload de imagem através de arquivo do computador. Utiliza react router dom, axios react tostify, no backend NodeJs, mongoose, express, bcrypt, jsonwebtoken, multer e mongoDB Atlas.</p>
                         <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/ReactRecipes" target="_blank">Aqui</a></p>
 
+                        <li>JS puro - Site para registro de treinos</li>
+                        <p>Um CRUD para fazer postagem de treinos, usuário cadastrado pode postar seus treinos da semana. Utiliza JavaScript no front-end, no back-end utiliza NodeJS com express e mongoose, junto com JWT e bcrypt. Para armazenamento de dados usa MongoDB Atlas.</p>
+                        <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/JS_Project" target="_blank">Aqui</a></p>
+
                         <li>React Quiz</li>
                         <p>Um quiz feito em react, utilizando useReducer e o useContext</p>
                         <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/ReactQuiz" target="_blank">Aqui</a></p>
