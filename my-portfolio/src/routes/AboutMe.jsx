@@ -32,9 +32,14 @@ const AboutMe = () => {
                         <p>Um CRUD para fazer postagem de treinos, usuário cadastrado pode postar seus treinos da semana. Utiliza JavaScript no front-end, no back-end utiliza NodeJS com express e mongoose, junto com JWT e bcrypt. Para armazenamento de dados usa MongoDB Atlas.</p>
                         <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/JS_Project" target="_blank">Aqui</a></p>
 
+                        <li>Projeto de React + TypeScript com Redux Toolkit</li>
+                        <p>Um projeto que utiliza Redux Toolkit, utiliza uma API pública. Fez requisição para busca de personagens dentro dessa API usando o createAsyncThunk do Redux Toolkit, lógica de filtragem dos personagens pelo nome, adição e remoção de personagens favoritos acontece pelo reducer criado com Redux Toolkit.</p>
+                        <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/ReduxProject" target="_blank">Aqui</a></p>
+
                         <li>React Quiz</li>
                         <p>Um quiz feito em react, utilizando useReducer e o useContext</p>
                         <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/ReactQuiz" target="_blank">Aqui</a></p>
+                        
 
                         <li>Github Finder com react e TypeScript</li>
                         <p>Um sistema para procurar perfis do Github e retorna o perfil com os melhores repositórios. Utiliza o react router dom e api do Github.</p>
