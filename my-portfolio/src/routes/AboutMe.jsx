@@ -20,6 +20,12 @@ const AboutMe = () => {
                         <li>React platarforma de gestão de estoque</li>
                         <p>Uma simples platarforma de gestão de estoque feita com React JS, NodeJs. Nessa platarforma usuários podem se cadastrar para pedir produtos, se disponível. Administradores podem se cadastrar se possuírem a chave de acesso para administradores, eles podem editar, postar e excluir produtos. Utiliza react router dom, axios, no backend NodeJs, mongoose, express, bcrypt, jsonwebtoken, multer e mongoDB Atlas.</p>
                         <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/platarforma-de-gestao-de-estoque" target="_blank">Aqui</a></p>
+                        
+                        <li>Quiz de JS + React e Python</li>
+                        <p>
+                            Um quiz que o usuário pode escolher entre fazer de JS + React ou de Python. Usuário faz o seu cadastro, assim tendo acesso aos dois quiz e a sua maior/atual pontuação. No fim do quiz pode acessar as maiores pontuações entre os usuários cadastrados. Feito com React no front-end e NodeJS e MongoDB no back-end, esse projeto está disponível online <a className="link" href="https://quiz-redux-extension-frontend.vercel.app/" target="_blank">neste link</a>:
+                        </p>
+                        <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/quiz_redux_extension" target="_blank">Aqui</a></p>
                         <li>React Services</li>
                         <p>Um CRUD para fazer solicitação de serviços para veículo, você cadastra seus dados e de acordo com seu orçamento pode solicitar serviços para o seu veículo, possui um painel administrativo, apenas o usuário administrador tem acesso. Utiliza react router dom, axios react tostify, no backend NodeJs, mongoose, express, bcrypt, jsonwebtoken e mongoDB Atlas.</p>
                         <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/ReactServices" target="_blank">Aqui</a></p>
