@@ -31,7 +31,7 @@ const AboutMe = () => {
                         <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/ReactServices" target="_blank">Aqui</a></p>
 
                         <li>React Recipes </li>
-                        <p>Um CRUD para fazer postagem de receitas, você cadastra seus dados e pode postar, editar e excluir suas receitas e ver as receitas postadas por outras pessoas, tem upload de imagem através de arquivo do computador. Utiliza react router dom, axios react tostify, no backend NodeJs, mongoose, express, bcrypt, jsonwebtoken, multer e mongoDB Atlas.</p>
+                        <p>Um CRUD para fazer postagem de receitas, você cadastra seus dados e pode postar, editar e excluir suas receitas e ver as receitas postadas por outras pessoas, tem upload de imagem através de arquivo do computador. Utiliza react router dom, axios react tostify, no backend NodeJs, mongoose, express, bcrypt, jsonwebtoken, cloudinary e mongoDB Atlas. Deploy feito pelo Vercel, disponível: <a href="https://react-recipes-frontend-zeta.vercel.app/" target="_black">Aqui</a></p>
                         <p>Repositório <a className="link" href="https://github.com/vitoriafreitasdev/ReactRecipes" target="_blank">Aqui</a></p>
 
                         <li>JS puro - Site para registro de treinos</li>
