@@ -1,77 +1,308 @@
+/* AboutMe.css */
 
-
-.aboutme-main-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    background-color: rgb(10, 10, 10);
-    background-image: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40), rgb(60, 60, 60) ); 
-    color: #ffffff;
-    height: 100%;
-}
-.aboutme-main-div h1{
-    text-align: center;
-    margin:1rem;
-}
-.aboutme-main-div h2{
-    margin:1rem;
-}
-.aboutme-main-div h1, h2{
-    color: #ffffff;
-
+.aboutme-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  
 }
 
-.div-projects{
-    margin: 1rem;
-    padding: 0.5rem;
-    width: 70%;
+.aboutme-header {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
-.div-projects ul {
-    margin: 2rem;
+.aboutme-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  color: #fff;
 }
 
-.div-projects li {
-    margin: 0.5rem;
-    padding: 0.2rem;
-    font-size: larger;
-    font-weight: bolder;
-}
-.certificates-div h2 {
-    margin-left: 7rem;
-}
-.certificates-div img{
-    width: 400px;
-    height: 400px;
-    object-fit: contain;
-    margin-left: 3rem;
-}
-.certificates-div span{
-    margin: 1rem;
-}
-.ul-projects p{
-    margin: 0.5rem;
-    text-indent: 10px;
+.aboutme-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-span{
-    font-weight: bolder;
+.section-title {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #3498db;
 }
-@media (max-width: 500px){
-    .aboutme-main-div{
-        height: 100%;
-    }
-    .aboutme-main-div h1{
-        font-size: 28px;
-    }
-    .introduction-p{
-        width: 250px;
-        margin-left: 5rem;
-    }
-    .certificates-div img{
-        width: 200px;
-        height: 200px;
-    }
-    
+
+.section-subtitle {
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+/* Projects Section */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.project-toggle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3498db;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tech-tag {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.project-details {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.project-description {
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.project-features h4 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.project-features ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.project-features li {
+  padding: 0.3rem 0;
+  color: #666;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.project-features li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-primary {
+  background: #3498db;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: #ecf0f1;
+  color: #2c3e50;
+  border: 1px solid #bdc3c7;
+}
+
+.btn-secondary:hover {
+  background: #bdc3c7;
+  transform: translateY(-2px);
+}
+
+/* Certificates Section */
+.certificates-section {
+  margin-top: 4rem;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.certificate-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: scale(1.02);
+}
+
+.certificate-image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.certificate-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.certificate-card:hover .certificate-image {
+  transform: scale(1.05);
+}
+
+.certificate-info {
+  padding: 1.5rem;
+}
+
+.certificate-info h3 {
+  margin: 0 0 0.5rem 0;
+  color: #2c3e50;
+}
+
+.certificate-info p {
+  color: #666;
+  margin: 0;
+}
+
+/* Skills Section */
+.skills-section {
+  margin-top: 4rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skill-category {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills-list span {
+  background: #f8f9fa;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #495057;
+  border: 1px solid #dee2e6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .aboutme-container {
+    padding: 1rem;
+  }
+  
+  .aboutme-title {
+    font-size: 2rem;
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-links {
+    flex-direction: column;
+  }
+  
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutme-title {
+    font-size: 1.8rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .project-title {
+    font-size: 1.1rem;
+  }
 }
