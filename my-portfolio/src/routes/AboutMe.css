@@ -54,6 +54,10 @@
     margin: 0.5rem;
     text-indent: 10px;
 }
+
+span{
+    font-weight: bolder;
+}
 @media (max-width: 500px){
     .aboutme-main-div{
         height: 100%;
