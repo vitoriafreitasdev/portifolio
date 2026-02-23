@@ -72,6 +72,15 @@ const useAboutMe = () => {
         repo: "https://github.com/vitoriafreitasdev/GitHubFinderReactTS",
         live: null,
         features: ["Integração GitHub API", "TypeScript", "Design responsivo"]
+      },
+      {
+        id: 8,
+        title: "Sistema de Planejamento Financeiro",
+        description: "Plataforma para gerenciamento e planejamento financeiro, contém gráficos com gastos mensais, gastos por categorias e orçamentos planejados contra realizado. Sistema feito com testes unitários com vitest e react testing library",
+        technologies: ["React", "Redux", "Redux Tookit", "Vitest", "React Testing Library", "react-chartjs-2"],
+        repo: "https://github.com/vitoriafreitasdev/sistema_planejamento_financeira_pessoal/tree/main/planejamento_finaceiro",
+        live: null,
+        features: ["Redux", "Criação de gráficos com react chartsjs"]
       }
     ];
     
