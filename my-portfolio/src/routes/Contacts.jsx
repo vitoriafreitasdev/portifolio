@@ -15,7 +15,7 @@ const Contacts = () => {
           GitHub:<span> <a target="_blank" href="https://github.com/vitoriafreitasdev" className="link_contacts">vitoriafreitasdev</a></span>
         </div>
         <div>
-          LinkedIn:<span> <a target="_blank" href="wwww.linkedin.com/in/vitoriafreitasdev" className="link_contacts">Vitória Freitas</a></span>
+          LinkedIn:<span> <a target="_blank" href="https://www.linkedin.com/in/vitoriafreitasdev" className="link_contacts">Vitória Freitas</a></span>
         </div>
     </div>
   )
