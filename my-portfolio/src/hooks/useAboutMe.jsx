@@ -15,7 +15,11 @@ const useAboutMe = () => {
         title: "React Plataforma de Gestão de Estoque",
         description: "Uma plataforma completa de gestão de estoque com autenticação de usuários e administradores. Usuários podem solicitar produtos disponíveis, enquanto administradores (com chave de acesso) podem gerenciar todo o inventário.",
         technologies: ["React", "Node.js", "MongoDB", "Express", "JWT", "Multer"],
-        repo: "https://github.com/vitoriafreitasdev/platarforma-de-gestao-de-estoque",
+        repo: {
+          link: "https://github.com/vitoriafreitasdev/platarforma-de-gestao-de-estoque",
+          desc: "Ver código completo"
+        },
+        repo2: null,
         live: null,
         features: ["Autenticação diferenciada", "CRUD completo", "Upload de imagens"]
       },
@@ -24,7 +28,11 @@ const useAboutMe = () => {
         title: "Quiz de JS + React e Python",
         description: "Plataforma de quiz com duas categorias técnicas. Usuários cadastrados podem testar seus conhecimentos, competir por pontuações e ver um ranking global.",
         technologies: ["React", "Redux", "Node.js", "Express", "MongoDB"],
-        repo: "https://github.com/vitoriafreitasdev/quiz_redux_extension",
+        repo: {
+          link: "https://github.com/vitoriafreitasdev/quiz_redux_extension",
+          desc: "Ver código completo"
+        },
+        repo2: null,
         live: "https://quiz-redux-extension-frontend.vercel.app/",
         features: ["Dois tipos de quiz", "Sistema de ranking", "Persistência de pontuações"]
       },
@@ -33,7 +41,11 @@ const useAboutMe = () => {
         title: "React Services",
         description: "Sistema para solicitação de serviços automotivos com base no orçamento do cliente. Inclui painel administrativo exclusivo para gestão de pedidos.",
         technologies: ["React", "Node.js", "MongoDB", "Express", "JWT"],
-        repo: "https://github.com/vitoriafreitasdev/ReactServices",
+        repo: {
+          link: "https://github.com/vitoriafreitasdev/ReactServices",
+          desc: "Ver código completo"
+        },
+        repo2: null,
         live: null,
         features: ["Painel administrativo", "Orçamento personalizado", "Autenticação segura"]
       },
@@ -42,7 +54,11 @@ const useAboutMe = () => {
         title: "React Recipes",
         description: "Comunidade para compartilhamento de receitas culinárias. Usuários podem postar, editar e explorar receitas de outros, com suporte a upload de fotos.",
         technologies: ["React", "Node.js", "Cloudinary", "Express", "MongoDB"],
-        repo: "https://github.com/vitoriafreitasdev/ReactRecipes",
+        repo: {
+          link: "https://github.com/vitoriafreitasdev/ReactRecipes",
+          desc: "Ver código completo"
+        },
+        repo2: null,
         live: "https://react-recipes-frontend-zeta.vercel.app/",
         features: ["Upload para Cloudinary", "Comunidade interativa", "CRUD completo"]
       },
@@ -51,7 +67,11 @@ const useAboutMe = () => {
         title: "Gerenciador de Treinos",
         description: "Aplicação para registro e acompanhamento de treinos semanais. Usuários organizam sua rotina de exercícios de forma simples e intuitiva.",
         technologies: ["JavaScript", "Node.js", "MongoDB", "Express", "JWT"],
-        repo: "https://github.com/vitoriafreitasdev/JS_Project",
+        repo: {
+          link: "https://github.com/vitoriafreitasdev/JS_Project",
+          desc: "Ver código completo"
+        },
+        repo2: null,
         live: null,
         features: ["Foco em JavaScript puro", "Autenticação JWT", "Interface limpa"]
       },
@@ -60,7 +80,11 @@ const useAboutMe = () => {
         title: "React + TypeScript com Redux Toolkit",
         description: "Aplicação que consome API pública para busca e gerenciamento de personagens. Demonstração avançada do uso de Redux Toolkit com operações assíncronas.",
         technologies: ["React", "TypeScript", "Redux Toolkit", "API REST"],
-        repo: "https://github.com/vitoriafreitasdev/ReduxProject",
+        repo: {
+          link: "https://github.com/vitoriafreitasdev/ReduxProject",
+          desc: "Ver código completo"
+        },
+        repo2: null,
         live: null,
         features: ["Async Thunks", "Favoritos", "Filtragem em tempo real"]
       },
@@ -69,7 +93,11 @@ const useAboutMe = () => {
         title: "Github Finder",
         description: "Ferramenta para busca de perfis do GitHub com exibição detalhada de informações e repositórios mais relevantes.",
         technologies: ["React", "TypeScript", "GitHub API"],
-        repo: "https://github.com/vitoriafreitasdev/GitHubFinderReactTS",
+        repo: {
+          link: "https://github.com/vitoriafreitasdev/GitHubFinderReactTS",
+          desc: "Ver código completo"
+        },
+        repo2: null,
         live: null,
         features: ["Integração GitHub API", "TypeScript", "Design responsivo"]
       },
@@ -78,9 +106,30 @@ const useAboutMe = () => {
         title: "Sistema de Planejamento Financeiro",
         description: "Plataforma para gerenciamento e planejamento financeiro, contém gráficos com gastos mensais, gastos por categorias e orçamentos planejados contra realizado. Sistema feito com testes unitários com vitest e react testing library",
         technologies: ["React", "Redux", "Redux Tookit", "Vitest", "React Testing Library", "react-chartjs-2"],
-        repo: "https://github.com/vitoriafreitasdev/sistema_planejamento_financeira_pessoal/tree/main/planejamento_finaceiro",
+        repo: {
+          link: "https://github.com/vitoriafreitasdev/sistema_planejamento_financeira_pessoal/tree/main/planejamento_finaceiro",
+          desc: "Ver código completo"
+        },
+        repo2: null,
         live: null,
         features: ["Redux", "Criação de gráficos com react chartsjs"]
+      }
+      ,
+      {
+        id: 9,
+        title: "Site para Eventos Acadêmicos",
+        description: "Site para amostragem de eventos acadêmicos, podendo adicionar comentários, realizar cadastro, login, contendo página do usuário (para postagem, edição ou deletagem de eventos próprios) e emissão do certificado de ida ao evento.",
+        technologies: ["React", "TypeScript", "Redux", "Redux Tookit", "TypeScript", "Downloadjs", "Html2canvas", "C# ASP.NET", "Bcrypt", "JwtBearer", "EntityFrameworkCore", "SQL Server"],
+        repo: {
+          link: "https://github.com/vitoriafreitasdev/projeto_eventos_academicos_react_ts",
+          desc: "Ver código do Front-End"
+        },
+        repo2: {
+          link: "https://github.com/vitoriafreitasdev/C_sharp_estudo/tree/main/API_PIMV",
+          desc: "Ver código do Back-End"
+        },
+        live: null,
+        features: ["Redux", "TypeScript", "C#"]
       }
     ];
     

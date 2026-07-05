@@ -45,7 +45,7 @@ const AboutMe = () => {
                   <span key={index} className="tech-tag">{tech}</span>
                 ))}
               </div>
-
+              
               {activeProject === project.id && (
                 <div className="project-details">
                   <p className="project-description">{project.description}</p>
@@ -61,13 +61,21 @@ const AboutMe = () => {
 
                   <div className="project-links">
                     <a 
-                      href={project.repo} 
+                      href={project.repo.link} 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="btn btn-secondary"
                     >
-                      Ver Código
+                      {project.repo.desc}
                     </a>
+                    {project.repo2 !== null && <a 
+                      href={project.repo2.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="btn btn-secondary"
+                    >
+                      {project.repo2.desc}
+                    </a>}
                     {project.live && (
                       <a 
                         href={project.live} 
